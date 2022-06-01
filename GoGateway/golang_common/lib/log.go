@@ -1,8 +1,8 @@
 package lib
 
 import (
+	dlog "GateWay/GoGateway/golang_common/log"
 	"fmt"
-	dlog "github.com/e421083458/go_gateway/golang_common/log"
 	"strings"
 )
 

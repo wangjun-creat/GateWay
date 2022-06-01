@@ -3,13 +3,15 @@ package lib
 import (
 	"bytes"
 	"database/sql"
-	dlog "github.com/e421083458/go_gateway/golang_common/log"
-	"github.com/e421083458/gorm"
-	"github.com/spf13/viper"
 	"io/ioutil"
 	"os"
 	"strings"
 	"time"
+
+	dlog "GateWay/GoGateway/golang_common/log"
+
+	"github.com/e421083458/gorm"
+	"github.com/spf13/viper"
 )
 
 type BaseConf struct {

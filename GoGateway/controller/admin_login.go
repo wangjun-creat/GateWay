@@ -1,16 +1,13 @@
 package controller
 
 import (
-	"GateWay/GoGateway/dao"
 	"encoding/json"
 	"time"
 
+	"GateWay/GoGateway/dao"
 	"GateWay/GoGateway/dto"
-
 	"GateWay/GoGateway/golang_common/lib"
-
 	"GateWay/GoGateway/middleware"
-
 	"GateWay/GoGateway/public"
 
 	"github.com/gin-gonic/contrib/sessions"
